@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anas Nabeel Khan | Production Capstone Storefront</title>
+    <meta name="description" content="Modular high-performance E-Commerce product catalog built by Anas Nabeel Khan, B.Tech IT student at JSPM RSCOE. Extends client-side routing and persistent dynamic cart architectures.">
+    <meta name="author" content="Anas Nabeel Khan">
+    
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+
+    <a href="#view-portal" class="skip-link">Skip to shop platform content</a>
+
+    <header role="banner" class="global-header">
+        <div class="brand-identity">
+            <a href="#/" class="route-link" aria-label="Anas's Hub Storefront Home View">TechStore.io</a>
+        </div>
+        
+        <nav aria-label="E-Commerce Architecture Navigation System">
+            <ul class="nav-links">
+                <li><a href="#/" class="route-link" id="nav-home">Storefront</a></li>
+                <li>
+                    <a href="#/cart" class="route-link cart-trigger" id="nav-cart" aria-label="View Shopping Cart Layout Container">
+                        Cart 
+                        <span id="cart-counter" class="counter-badge" aria-live="polite">0</span>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="view-portal" tabindex="-1">
+        <div class="app-spinner" role="status" aria-label="Loading catalog components..."></div>
+    </main>
+
+    <footer role="contentinfo" class="global-footer">
+        <p>&copy; 2026 Anas Nabeel Khan | Capstone Engineering Project Portfolio.</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
